@@ -1,0 +1,32 @@
+.content{
+    width: 60%;
+    margin: 0 auto;
+    border: 3px solid black;
+    border: 3px solid black;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 50px 30px;
+    position:relative;
+    text-align: center;
+}
+
+img{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-microsoft{
+    width:70px;
+}
+
+.content tr:first-child td {
+    font-weight: 700;
+}
+
+.logo-amazon{
+    width:70px;
+}
